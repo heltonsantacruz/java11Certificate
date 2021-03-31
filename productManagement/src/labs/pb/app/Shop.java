@@ -10,6 +10,8 @@ import labs.pm.data.Rating;
 public class Shop {
 	
 	public static void main(String[] args) {
+		
+		
 		ProductManager pm = new ProductManager("en-US");
 		
 		Product product1 = pm.createProduct(101,"Tea", BigDecimal.valueOf(2.99), Rating.NOT_RATED);
@@ -42,6 +44,10 @@ public class Shop {
 		pm.printProducts(ratingSorter.thenComparing(priceSorter));
 		
 		pm.printProducts(ratingSorter.thenComparing(priceSorter).reversed());
+		
+		
+		
+		
 		
 		
 	}

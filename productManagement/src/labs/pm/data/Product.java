@@ -20,6 +20,7 @@ public abstract class Product implements Rateable<Product>{
 //		
 //	}
 	
+	
 	public Product(int id, String name, BigDecimal price, Rating rating) {
 		this.id = id;
 		this.name = name;
