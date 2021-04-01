@@ -1,0 +1,7 @@
+Jogador1,Atacante,25,Flamengo,18
+Jogador2,Atacante,23,Palmeiras,28
+Jogador3,Atacante,25,Palmeiras,8
+Jogador4,Atacante,22,Flamengo,6
+Jogador5,Atacante,21,Santos,0
+Jogador6,Atacante,22,Santos,11
+Jogador7,Atacante,29,Flamengo,14
