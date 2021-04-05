@@ -1,5 +1,7 @@
 package labs.pb.app;
 
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
 import java.util.Comparator;
 
@@ -10,21 +12,32 @@ import labs.pm.data.Rating;
 
 public class Shop {
 	
-	public static void main(String[] args) throws ProductManagerException {
+	public static void main(String[] args) throws ProductManagerException, UnsupportedEncodingException, IOException {
 		
 		
 		ProductManager pm = new ProductManager("en-US");
+		//pm.dumpData();
+		pm.restoreDump();
+		pm.printProducts();
 		
 		
 		
 		
-		Product product1 = pm.createProduct(101,"Tea", BigDecimal.valueOf(2.99), Rating.NOT_RATED);
-		//pm.printProductReport(p1);
+//		Product product1 = pm.createProduct(101,"Tea", BigDecimal.valueOf(2.99), Rating.NOT_RATED);
+//		pm.reviewProduct(101, Rating.TWO_STAR, "Rather weak coffe");
+//		pm.reviewProduct(101, Rating.FOUR_STAR, "Fine coffe");
+//		pm.reviewProduct(101, Rating.FOUR_STAR, "Good Coffe");
+//		pm.reviewProduct(101, Rating.FIVE_STAR, "Perfect Coffe");
+//		
+//		
+//		pm.printProductReport(product1);
 		
 		
-		pm.parseProduct("D,204,Tea,1.99,0,2019-09-19");
-		pm.parseReview("204,4,Nice hot cup of tea");
-		pm.printProductReport(204);
+		//pm.parseProduct("D,204,Tea,1.99,0,2019-09-19");
+		//pm.parseReview("204,4,Nice hot cup of tea");
+		//pm.printProductReport(204);
+		
+		
 		
 //		pm.reviewProduct(101, Rating.FOUR_STAR, "Nice hot cup of tea");
 //		pm.reviewProduct(101, Rating.TWO_STAR, "Rather weak tea");
@@ -56,7 +69,7 @@ public class Shop {
 		
 		
 		
-		
+		System.out.println("Fim");
 		
 		
 		
