@@ -1,5 +1,0 @@
-Tea, Price: $2.99, Rating: ☆☆☆☆☆, Best Before: 4/5/21
-Review: ★★★★★	Perfect Coffe
-Review: ★★★★☆	Fine coffe
-Review: ★★★★☆	Good Coffe
-Review: ★★☆☆☆	Rather weak coffe
